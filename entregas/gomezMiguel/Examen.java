@@ -18,14 +18,27 @@ public class Examen{
           }
            System.out.println("Cuantas materias estas matriculado  ");
            int materias=scanner.next.Int();
-           if(materias>1&&edad <10){
 
+
+           if(materias>1&&edad <10){
            do{
              System.out.println("Cuantas materias estas matriculado  ");
                materias=scanner.next.Int();
            }while(materias>1&&edad <10);
+
+           }
+            System.out.println("Cuantas materias estas matriculado  ");
+           int materiaas=scanner.next.Int();
+           if (i =0; i<materiaas;i++){
+             System.out.println("nota de esta materia   ");
+              int nota =scanner.next.Int();
            }
 
+           
+
+
+    }
+}
        
 
         
