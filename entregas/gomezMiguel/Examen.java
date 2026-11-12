@@ -4,14 +4,19 @@ public class Examen{
 
         System.out.println("Examen parcial ");
         Scannner scanner = new Scanner (System.in);
-          System.out.println("Examen parcial ");
+        System.out.println("Cual es tu edad  ");
           int edad=scanner.next.Int();
+        do {
+          System.out.println("Cual es tu edad  ");
+          int edad=scanner.next.Int();
+            }while (edad>16&&edad <99 );
 
           if (edad >=18){
              System.out.println("Mayor edad  ");
           }else{
              System.out.println("Menor edad ");
           }
+       
 
         
 
