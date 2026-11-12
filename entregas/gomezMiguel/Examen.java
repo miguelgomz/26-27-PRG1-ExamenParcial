@@ -16,6 +16,9 @@ public class Examen{
           }else{
              System.out.println("Menor edad ");
           }
+           System.out.println("Cuantas materias estas matriculado  ");
+           int materias=scanner.next.Int();
+
        
 
         
