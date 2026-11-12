@@ -77,7 +77,7 @@ public class Examen {
 
         double media = total / materias;
 
-        System.out.println("--------------------");
+    
         System.out.println("Suma total de notas: " + total);
         System.out.println("La media es: " + media);
         System.out.println("La nota mas alta es: " + notaMasAlta + " (en la materia " + materiaNotaMasAlta + ")");
@@ -90,8 +90,13 @@ public class Examen {
         } else {
             System.out.println("Curso suspendido");
         }
+       
+        if (media>=5 && nota>){
+              System.out.println("Promociona ");
 
-        System.out.println("--------------------");
+        }
+
+      
 
         scanner.close();
     }
