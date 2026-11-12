@@ -91,9 +91,10 @@ public class Examen {
             System.out.println("Curso suspendido");
         }
        
-        if (media>=5 && nota>){
+        if (media>=5 && nota>=4){
               System.out.println("Promociona ");
-
+        }else{
+             System.out.println("Recupera  ");
         }
 
       
