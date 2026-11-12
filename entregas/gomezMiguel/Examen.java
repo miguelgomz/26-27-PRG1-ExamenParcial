@@ -8,7 +8,7 @@ public class Examen{
           int edad=scanner.next.Int();
         do {
           System.out.println("Cual es tu edad  ");
-          int edad=scanner.next.Int();
+           edad=scanner.next.Int();
             }while (edad>16&&edad <99 );
 
           if (edad >=18){
