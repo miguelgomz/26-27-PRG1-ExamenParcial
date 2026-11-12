@@ -7,6 +7,12 @@ public class Examen{
           System.out.println("Examen parcial ");
           int edad=scanner.next.Int();
 
+          if (edad >=18){
+             System.out.println("Mayor edad  ");
+          }else{
+             System.out.println("Menor edad ");
+          }
+
         
 
 }
