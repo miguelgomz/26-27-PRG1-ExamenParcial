@@ -37,6 +37,7 @@ public class Examen {
         int notasMayoresACinco = 0;
         int suspendidos = 0;
         double notaMasAlta = 0;
+        int materiaNotaMasAlta = 0;
 
         for (int i = 0; i < materias; i++) {
             double nota = 0;
@@ -52,6 +53,11 @@ public class Examen {
 
             total = total + nota;
 
+            if (nota > notaMasAlta) {
+                notaMasAlta = nota;
+                materiaNotaMasAlta = i + 1;
+            }
+
             if (nota > 5) {
                 notasMayoresACinco = notasMayoresACinco + 1;
             } else if (nota < 5) {
@@ -66,6 +72,7 @@ public class Examen {
 
         System.out.println("Suma total de notas: " + total);
         System.out.println("La media es: " + media);
+        System.out.println("La nota mas alta es: " + notaMasAlta + " (en la materia " + materiaNotaMasAlta + ")");
         System.out.println("Cantidad de notas mayores a 5: " + notasMayoresACinco);
         System.out.println("Cantidad de materias suspendidas: " + suspendidos);
 
@@ -75,7 +82,7 @@ public class Examen {
             System.out.println("Curso suspendido");
         }
 
-
+      
         scanner.close();
     }
 }
