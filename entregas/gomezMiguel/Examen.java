@@ -35,22 +35,32 @@ public class Examen {
             do {
                 System.out.println("nota de esta materia " + (i + 1));
                 nota = scanner.nextDouble();
-            } while (nota < 0 || nota > 10);
+            } while (nota < 1 || nota > 10);
 
             total = total + nota;
 
             if (nota > 5) {
                 notasMayoresACinco = notasMayoresACinco + 1;
+            } else if (nota < 5) {
+                suspendidos = suspendidos + 1;
+                System.out.println("Materia suspendida");
             }
         }
 
         double media = total / materias;
+
+       
         System.out.println("La media es: " + media);
         System.out.println("Cantidad de notas mayores a 5: " + notasMayoresACinco);
+        System.out.println("Cantidad de materias suspendidas: " + suspendidos);
+
+        if (media >= 5) {
+            System.out.println("Curso aprobado");
+        } else {
+            System.out.println("Curso suspendido");
+        }
+        
 
         scanner.close();
-        do {
-            
-        }
     }
 }
