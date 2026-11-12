@@ -49,5 +49,8 @@ public class Examen {
         System.out.println("Cantidad de notas mayores a 5: " + notasMayoresACinco);
 
         scanner.close();
+        do {
+            
+        }
     }
 }
