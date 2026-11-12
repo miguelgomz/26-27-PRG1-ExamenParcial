@@ -5,7 +5,7 @@ public class Examen{
         System.out.println("Examen parcial ");
         Scannner scanner = new Scanner (System.in);
           System.out.println("Examen parcial ");
-          int edad=sacnner.next.Int();
+          int edad=scanner.next.Int();
 
         
 
