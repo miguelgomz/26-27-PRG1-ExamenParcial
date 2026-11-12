@@ -29,13 +29,14 @@ public class Examen{
            }
             System.out.println("Cuantas materias estas matriculado  ");
            int materiaas=scanner.next.Int();
-           if (i =0; i<materiaas;i++){
+           if (int i =0; i<materiaas;i++){
              System.out.println("nota de esta materia   ");
               int nota =scanner.next.Int();
+              int total = nota +nota;
            }
 
-           
-
+    }
+}
 
     }
 }
